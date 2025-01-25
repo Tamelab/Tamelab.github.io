@@ -11,7 +11,7 @@
     "profiles": [
       { "network": "github", "username": "Tamelab", "url": "http://github.com/Tamelab" },
       { "network": "linkedin", "username": "Tamela Brinson", "url": "http://linkedin.com/in/tamelabrinson" },
-      
+    ],
   "interests": [
     { "name": "Cybersecurity" },
     { "name": "Encoding and Decoding" },
