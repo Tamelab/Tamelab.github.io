@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96797", "city": "Waipahu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "Tamelab", "url": "http://github.com/Tamelab" },
-      { "network": "linkedin", "username": "Tamela Brinson", "url": "http://linkedin.com/in/tamelabrinson" },
+      { "network": "linkedin", "username": "Tamela Brinson", "url": "http://linkedin.com/in/tamelabrinson" }
     ],
   "interests": [
     { "name": "Cybersecurity" },
