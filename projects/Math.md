@@ -1,28 +1,49 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+image: img/IMG_3551.jpeg
+title: "Math"
+date: 2024
 published: true
 labels:
   - Javascript
-  - Meteor
-  - MongoDB
+  - Visual Studios
   - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: Code defines a function sum_sq() that calculates and prints the sum of the squares of two user-provided integers. Here’s a breakdown of what it does"
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/IMG_3551.jpeg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+The sum_sq() function is designed to compute the sum of the squares of two user-provided integers efficiently. It begins by prompting the user for input and then calculates the square of each integer before summing the results. Initially, the implementation uses the pow() function from <math.h> to perform exponentiation, but this approach introduces unnecessary floating-point calculations, which can lead to inefficiencies. The function is structured as follows:
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+#include <stdio.h>
+#include <math.h>
+#include "sum_sq.h"
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+void sum_sq() {
+   int x, y;
+   printf("Enter two integers: ");
+   scanf("%d %d", &x, &y);
 
-Here is some example code to illustrate Simple Schema use:
+   int x_squared = pow(x, 2);
+   int y_squared = pow(y, 2);
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
+   int sum_of_squares = x_squared + y_squared;
+   printf("The sum of the squares of %d and %d is: %d\n", x, y, sum_of_squares);
+}
+While functionally correct, this implementation can be optimized. The use of pow(x, 2) is redundant when working with integers, as exponentiation in floating-point arithmetic is unnecessary for simple squaring operations. Instead, replacing pow(x, 2) with x * x significantly improves efficiency by eliminating floating-point operations and maintaining integer precision. The revised version of the function is as follows:
+
+void sum_sq() {
+   int x, y;
+   printf("Enter two integers: ");
+   scanf("%d %d", &x, &y);
+
+   int x_squared = x * x;  // Optimized integer squaring
+   int y_squared = y * y;
+
+   int sum_of_squares = x_squared + y_squared;
+   printf("The sum of the squares of %d and %d is: %d\n", x, y, sum_of_squares);
+}
+This updated version ensures that the function remains both computationally efficient and precise. By removing unnecessary floating-point operations, it improves performance, particularly in environments where efficiency is a priority. This optimization is a small but effective example of how algorithmic improvements can enhance computational efficiency in real-world applications.
  
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
