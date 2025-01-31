@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: img/IMG_3553.jpeg
 title: "Crypto"
 date: 2022
 published: true
@@ -13,7 +13,7 @@ labels:
 summary: "Cryptography is the practice and study of securing information and communication through techniques that prevent unauthorized access, tampering, or interception.."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/IMG_3553.jpeg">
 
 Implementing a Caesar Cipher for Encryption and Decryption
 For this assignment, I implemented a Caesar cipher, a fundamental cryptographic technique used for encryption and decryption. The Caesar cipher is a substitution cipher that shifts each letter in the plaintext forward by a fixed number of positions in the alphabet. To decrypt the message, the shift is simply reversed. This project allowed me to explore basic cryptographic principles, particularly character manipulation and modular arithmetic, while reinforcing my understanding of programming in C.
