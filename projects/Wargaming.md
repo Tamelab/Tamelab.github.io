@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/IMG_3549.jpeg
 title: "Wargaming"
 date: 2024
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "Army building for wargaming is the process of selecting and assembling a force to use in a tabletop wargame."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/IMG_3549.jpeg">
 
 Army building for wargaming is the process of selecting and assembling a force to use in a tabletop wargame. 
 
