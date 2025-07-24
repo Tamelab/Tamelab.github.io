@@ -12,7 +12,7 @@ labels:
 summary: "Game Development for a minigame based video game with different levels based on the year you are currently in university."
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
+<img width="200px" class="rounded float-start pe-4" src="../img/Classroom.jpeg">
 
 ---
 
