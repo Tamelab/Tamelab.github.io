@@ -1,8 +1,7 @@
 ---
-title: Design Patterns: Blueprints for Cleaner Code
+title: Design Patterns
+layout: post
 date: 2025-07-24
-layout: essay
-collection: essays
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
