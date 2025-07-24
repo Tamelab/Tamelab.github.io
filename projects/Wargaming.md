@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/IMG_3549.jpeg
+image: img/CompSci-SpeedRun/classroom.jpg
 title: "Video Game Development: CompSci-SpeedRun"
 date: 2025
 published: true
