@@ -2,6 +2,7 @@
 layout: page
 title: Essays
 permalink: /essays/
+published: false
 ---
 
 # Essays
