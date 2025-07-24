@@ -54,17 +54,21 @@ public class StartGame : MonoBehaviour {
         dialogueManager.StartDialogue(intro);
     }
 }
-What’s happening here is pretty straightforward. The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation — a key part of the storytelling system.
 
-Why I’m Building It
+## What’s happening here is pretty straightforward
+
+The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation — a key part of the storytelling system.
+
+## Why I’m Building It
 As someone who’s currently going through this experience, I wanted to capture what makes studying CS so weirdly unique. It’s not just about learning how to code — it’s about figuring out how to learn, how to stay motivated, and how to balance everything else life throws at you. Making this game is my way of reflecting on all of that while building something creative and technically challenging at the same time.
 
 I’m using Unity for this project because I wanted a tool that gave me control over 2D storytelling and UI while also being flexible enough to support the logic behind dialogue trees, choices, and branching paths. Most of my coding is in C#, which fits nicely with Unity’s structure.
 
-Next Steps
+## Next Steps
+
 So far, I’ve implemented the dialogue system and the semester one level. Next, I’ll be adding branching dialogue choices, GPA logic, and a simple minigame that simulates finishing a CS assignment before the deadline (think: a frantic debugging puzzle). Each level will introduce new characters, new challenges, and new emotional beats as the player progresses through sophomore, junior, and senior years.
 
-Final Thoughts
+## Final Thoughts
 CompSci: Speedrun is more than just a portfolio project for me — it’s a way of turning my journey as a CS student into something interactive and meaningful. Whether you’re a current student, a grad, or just curious about what it’s like to go through a tech degree, I hope the game feels both relatable and entertaining.
 
-This essay was written by me, Tamela Brinson, as part of my university portfolio.
+
