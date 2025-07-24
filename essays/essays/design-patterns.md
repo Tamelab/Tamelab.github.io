@@ -5,7 +5,11 @@ date: 2025-07-24
 description: "An engaging essay explaining what design patterns are and how I've used them in my projects."
 permalink: /essays/design-patterns.html
 ---
+---
 
+<img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
+
+---
 # Design Patterns: The Building Blocks of Code Architecture
 
 Imagine building a house without a blueprint. You might get lucky, but chances are the rooms won’t flow well, the plumbing might leak, and the whole thing could collapse when you add a second floor. Design patterns are like the blueprints and architectural guidelines for software development—they provide proven solutions to common problems, so your code is solid, maintainable, and scalable.
