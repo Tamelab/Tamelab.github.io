@@ -1,9 +1,9 @@
 ---
-layout: essay
 title: "Design Patterns: The Building Blocks of Code Architecture"
 date: 2025-07-24
 description: "An engaging essay explaining what design patterns are and how I've used them in my projects."
 permalink: /essays/design-patterns.html
+layout: essay
 ---
 ---
 
