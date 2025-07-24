@@ -4,6 +4,10 @@ title: Essays
 permalink: /essays/
 ---
 
-# My Technical Essays
+# Essays
 
-* [Design Patterns: Blueprints for Cleaner Code](design-patterns)
+<ul>
+  {% for essay in site.essays %}
+    <li><a href="{{ essay.url }}">{{ essay.title }}</a></li>
+  {% endfor %}
+</ul>
