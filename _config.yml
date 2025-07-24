@@ -7,11 +7,6 @@ baseurl: ""
 techfolio-theme: bitter.css
 rouge-theme: github.css
 
-# ADD ESSAYS COLLECTION
-collections:
-  essays:
-    output: true
-
 # DON'T CHANGE THE FOLLOWING (unless you know what you're doing)
 markdown: kramdown
 kramdown:
@@ -30,4 +25,3 @@ include:
   - _data
 plugins:
   - jekyll-gist
-
