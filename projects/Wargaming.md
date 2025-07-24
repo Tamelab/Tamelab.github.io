@@ -2,8 +2,8 @@
 layout: project
 type: project
 image: img/IMG_3549.jpeg
-title: "Wargaming"
-date: 2024
+title: "Video Game Development: CompSci-SpeedRun"
+date: 2025
 published: true
 labels:
   - Algorithms 
