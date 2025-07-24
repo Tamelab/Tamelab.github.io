@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/CompSci-SpeedRun/classroom.jpg
+image: img/classroom.jpg
 title: "Video Game Development: CompSci-SpeedRun"
 date: 2025
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "Game Development for a minigame based video game with different levels based on the year you are currently in university."
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/CompSci-SpeedRun/classroom.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/classroom.jpg">
 
 ---
 
