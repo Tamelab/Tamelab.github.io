@@ -1,10 +1,9 @@
 ---
-title: "Design Patterns: The Building Blocks of Code Architecture"
+title: Design Patterns: Blueprints for Cleaner Code
 date: 2025-07-24
-description: "An engaging essay explaining what design patterns are and how I've used them in my projects."
-permalink: /essays/design-patterns.html
 layout: essay
----
+collection: essays
+
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
