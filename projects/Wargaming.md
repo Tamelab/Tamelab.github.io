@@ -8,6 +8,7 @@ published: true
 labels:
   - Algorithms 
   - technical
+  - -Video Game Design
 summary: "Game Development for a minigame based video game with different levels based on the year you are currently in university."
 ---
 
@@ -54,10 +55,8 @@ public class StartGame : MonoBehaviour {
         dialogueManager.StartDialogue(intro);
     }
 }
-
-## What’s happening here is pretty straightforward
-
-The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation — a key part of the storytelling system.
+```
+What’s happening here is pretty straightforward. The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation — a key part of the storytelling system.
 
 ## Why I’m Building It
 As someone who’s currently going through this experience, I wanted to capture what makes studying CS so weirdly unique. It’s not just about learning how to code — it’s about figuring out how to learn, how to stay motivated, and how to balance everything else life throws at you. Making this game is my way of reflecting on all of that while building something creative and technically challenging at the same time.
