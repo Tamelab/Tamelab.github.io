@@ -1,6 +1,6 @@
 ---
 title: Design Patterns
-layout: post
+layout: essay
 date: 2025-07-24
 ---
 
