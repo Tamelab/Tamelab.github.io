@@ -1,12 +1,18 @@
 ---
-title: Design Patterns
 layout: essay
+type: essay
+title: "Design Patterns"
 date: 2025-07-24
+published: true
+labels:
+  - Programming
+  - Software Design
 ---
+
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
 
----
+
 # Design Patterns: The Building Blocks of Code Architecture
 
 Imagine building a house without a blueprint. You might get lucky, but chances are the rooms won’t flow well, the plumbing might leak, and the whole thing could collapse when you add a second floor. Design patterns are like the blueprints and architectural guidelines for software development—they provide proven solutions to common problems, so your code is solid, maintainable, and scalable.
@@ -34,7 +40,7 @@ class Singleton:
 
 Another favorite is the Observer pattern—think of it like a fire alarm system in a building. When the alarm detects smoke, it notifies all the rooms so people can evacuate. In my projects, I’ve used Observer to update the user interface in real-time when the underlying data changes, without having to constantly check or refresh manually.
 
-Why Design Patterns Matter
+## Why Design Patterns Matter
 Design patterns are like a toolkit of blueprints that experienced programmers have developed to make building software less chaotic and more efficient. Using them helps avoid “reinventing the wheel” and improves communication, since other developers often recognize these common patterns.
 
 By learning and using design patterns, I’ve improved my coding skills and the quality of my projects. They give me a foundation that makes complex software easier to build, test, and maintain.
