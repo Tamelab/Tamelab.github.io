@@ -39,17 +39,3 @@ Design patterns are like a toolkit of blueprints that experienced programmers ha
 By learning and using design patterns, I’ve improved my coding skills and the quality of my projects. They give me a foundation that makes complex software easier to build, test, and maintain.
 
 This essay was written by me, Tamela Brinson, as part of my university coursework in 2025.
-
-
-Save the file.
-
----
-
-### 🔹 5. Update the Essays page to link to your new essay
-
-Open the file that lists your essays (usually called `essays.md` or `essays.html`). If you're unsure, look for a file in your root folder or `_pages/` folder that lists your other essays.
-
-Add this line to the list:
-
-```markdown
-- [Design Patterns: The Building Blocks of Code Architecture](/essays/design-patterns.html)
