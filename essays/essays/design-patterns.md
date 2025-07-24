@@ -27,7 +27,9 @@ class Singleton:
     def __new__(cls):
         if not cls._instance:
             cls._instance = super().__new__(cls)
-        return cls._instance
+        return cls._instance  
+```
+
 
 Another favorite is the Observer pattern—think of it like a fire alarm system in a building. When the alarm detects smoke, it notifies all the rooms so people can evacuate. In my projects, I’ve used Observer to update the user interface in real-time when the underlying data changes, without having to constantly check or refresh manually.
 
@@ -37,3 +39,17 @@ Design patterns are like a toolkit of blueprints that experienced programmers ha
 By learning and using design patterns, I’ve improved my coding skills and the quality of my projects. They give me a foundation that makes complex software easier to build, test, and maintain.
 
 This essay was written by me, Tamela Brinson, as part of my university coursework in 2025.
+
+
+Save the file.
+
+---
+
+### 🔹 5. Update the Essays page to link to your new essay
+
+Open the file that lists your essays (usually called `essays.md` or `essays.html`). If you're unsure, look for a file in your root folder or `_pages/` folder that lists your other essays.
+
+Add this line to the list:
+
+```markdown
+- [Design Patterns: The Building Blocks of Code Architecture](/essays/design-patterns.html)
