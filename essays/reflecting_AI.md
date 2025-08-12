@@ -4,13 +4,14 @@ type: essay
 title: "Reflecting on My Use of AI in ICS 314"
 # All dates must be YYYY-MM-DD format!
 date: 2025-08-11
-published: false
+published: True
 labels:
   - AI
   - Software Engineering
   - Essays
 ---
 
+<img width="200px" class="rounded float-start pe-4" src="../img/chat.jpg">
 
 # Reflecting on My Use of AI in ICS 314
 
