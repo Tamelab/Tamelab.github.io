@@ -11,7 +11,7 @@ labels:
   - Essays
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../essays/img/AI.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/AI.jpg">
 
 
 # Reflecting on My Use of AI in ICS 314
