@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflecting on My Use of AI in ICS 314"
+title: "Reflection on Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-08-11
 published: True
@@ -10,6 +10,8 @@ labels:
   - Software Engineering
   - Essays
 ---
+<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/AI.jpg">
+
 # Reflection on Software Engineering
 
   Coming into this class, I honestly thought it was just going to be about making web apps. I figured we'd learn some frameworks, build a few projects, and that would be it. But pretty quickly I realized the bigger goal was to understand how software gets built in a way that's organized, sustainable, and works well when you have more than just one person coding. The web development part was just the toolset. We were really learning the foundations of software engineering that can be used anywhere.
