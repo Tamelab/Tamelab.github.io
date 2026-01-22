@@ -8,6 +8,7 @@ published: true
 labels:
   - Github
   - Visual Studios
+  - AI
 ---
 SproutSpace: AI Powered Plant Health Diagnostics
 ---
@@ -16,12 +17,41 @@ SproutSpace is an intuitive mobile application that helps home gardeners diagnos
 
 ---
 
-<img class="img-fluid" src="../img/IMG_3551.jpeg">
+<img class="img-fluid" src="../img/Sproutspace_headerimage.jpeg">
 
-The sum_sq() function is designed to compute the sum of the squares of two user-provided integers efficiently. It begins by prompting the user for input and then calculates the square of each integer before summing the results. Initially, the implementation uses the pow() function from <math.h> to perform exponentiation, but this approach introduces unnecessary floating-point calculations, which can lead to inefficiencies. The function is structured as follows:
+Overview
+---
+Many home gardeners struggle to identify what’s wrong with their plants, whether it’s a nutrient deficiency, pest, or disease. SproutSpace bridges that gap using computer vision and machine learning.
 
-<img class="img-fluid" src="../img/IMG_3552.jpeg">
+Users simply take a photo of their plant or connect an optional external sensor, and our AI analyzes the data to provide:
 
-While functionally correct, this implementation can be optimized. The use of pow(x, 2) is redundant when working with integers, as exponentiation in floating-point arithmetic is unnecessary for simple squaring operations. Instead, replacing pow(x, 2) with x * x significantly improves efficiency by eliminating floating-point operations and maintaining integer precision. 
+Instant diagnosis
+Actionable solutions
+Preventive care strategies
+
+<img class="img-fluid" src="../img/sproutspace_bottomimage.jpeg">
+
+Key Features
+---
+Multispectral Imaging: Upload smartphone photos or connect external sensors via Bluetooth
+Smart Diagnoses: Identify nutrient deficiencies, fungal issues, pest damage, and more
+Tailored Recommendations: Solutions based on plant type, location, and conditions
+Gamification: Earn badges, level up, and compete on gardening leaderboards
+Community: Join challenges, share tips, and grow together
+
+Sample Pages (Mockups)
+---
+Top Dashboard Image
+<img class="img-fluid" src="../img/TopDashboard.jpeg">
+Diagnostics Page
+<img class="img-fluid" src="../img/TopPlantDiagnostics.jpeg">
+
+Use Cases
+---
+
+New Gardener: Snap a photo, get a quick diagnosis, and follow clear advice
+Experienced Grower: Use external sensors and access advanced analytics
+Community Member: Earn rewards, share insights, and support others
+Admin Role: Maintain AI accuracy, update models, and moderate forums
  
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a
