@@ -28,7 +28,7 @@ You play as a first-year CS student just starting your major. The idea is to sim
 
 The game is structured like a level-based visual novel. Each level represents a semester in college. You make dialogue choices that impact your GPA, social life, and confidence. Along the way, mini-games simulate things like debugging code under pressure, or getting through a group project with flaky teammates (yes, it's as relatable as it sounds).
 
-At its core, **CompSci: Speedrun** is meant to feel like a fast-paced but emotionally grounded look at what it's like to survive — and hopefully thrive — in a CS program. It’s exaggerated for fun, but rooted in real experiences.
+At its core, **CompSci: Speedrun** is meant to feel like a fast-paced but emotionally grounded look at what it's like to survive and hopefully thrive in a CS program. It’s exaggerated for fun, but rooted in real experiences.
 
 ---
 
@@ -56,7 +56,7 @@ public class StartGame : MonoBehaviour {
     }
 }
 ```
-What’s happening here is pretty straightforward. The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation — a key part of the storytelling system.
+What’s happening here is pretty straightforward. The StartGame script sets up the intro dialogue when the level loads. The player character has a short inner monologue, setting the tone of nervous excitement. The DialogueManager handles displaying the lines on screen and advancing the conversation, a key part of the storytelling system.
 
 ## Why I’m Building It
 As someone who’s currently going through this experience, I wanted to capture what makes studying CS so weirdly unique. It’s not just about learning how to code — it’s about figuring out how to learn, how to stay motivated, and how to balance everything else life throws at you. Making this game is my way of reflecting on all of that while building something creative and technically challenging at the same time.
@@ -68,6 +68,6 @@ I’m using Unity for this project because I wanted a tool that gave me control 
 So far, I’ve implemented the dialogue system and the semester one level. Next, I’ll be adding branching dialogue choices, GPA logic, and a simple minigame that simulates finishing a CS assignment before the deadline (think: a frantic debugging puzzle). Each level will introduce new characters, new challenges, and new emotional beats as the player progresses through sophomore, junior, and senior years.
 
 ## Final Thoughts
-CompSci: Speedrun is more than just a portfolio project for me — it’s a way of turning my journey as a CS student into something interactive and meaningful. Whether you’re a current student, a grad, or just curious about what it’s like to go through a tech degree, I hope the game feels both relatable and entertaining.
+CompSci: Speedrun is more than just a portfolio project for me, it’s a way of turning my journey as a CS student into something interactive and meaningful. Whether you’re a current student, a grad, or just curious about what it’s like to go through a tech degree, I hope the game feels both relatable and entertaining.
 
 
