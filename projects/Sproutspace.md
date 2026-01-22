@@ -9,7 +9,7 @@ labels:
   - Github
   - Visual Studios
   - AI
-Summary: "An intuitive mobile application leveraging AI-powered multispectral imaging to help home gardeners diagnose plant health issues and receive actionable recommendations."
+summary: "An intuitive mobile application leveraging AI-powered multispectral imaging to help home gardeners diagnose plant health issues and receive actionable recommendations."
 ---
 SproutSpace: AI Powered Plant Health Diagnostics
 ---
