@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Design Patterns"
 date: 2025-07-24
-published: true
+published: false
 labels:
   - Programming
   - Software Design
