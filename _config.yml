@@ -4,7 +4,7 @@ url: "https://Tamelab.github.io"
 baseurl: ""
 
 # OPTIONAL CHANGES
-techfolio-theme: bitter.css
+techfolio-theme: skyblue.css
 rouge-theme: github.css
 
 # DON'T CHANGE THE FOLLOWING (unless you know what you're doing)
