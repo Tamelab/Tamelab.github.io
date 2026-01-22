@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sproutspaceimage.png
+image: img/imagesprout.png
 title: "Sproutspace"
 date: 2025
 published: true
