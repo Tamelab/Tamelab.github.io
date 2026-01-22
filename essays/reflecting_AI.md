@@ -4,7 +4,7 @@ type: essay
 title: "Reflecting on My Use of AI in ICS 314"
 # All dates must be YYYY-MM-DD format!
 date: 2025-08-11
-published: True
+published: false
 labels:
   - AI
   - Software Engineering
