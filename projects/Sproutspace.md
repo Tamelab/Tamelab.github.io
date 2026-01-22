@@ -26,7 +26,9 @@ Many home gardeners struggle to identify what’s wrong with their plants, wheth
 Users simply take a photo of their plant or connect an optional external sensor, and our AI analyzes the data to provide:
 
 Instant diagnosis
+
 Actionable solutions
+
 Preventive care strategies
 
 <img class="img-fluid" src="../img/sproutspace_bottomimage.png">
@@ -34,14 +36,19 @@ Preventive care strategies
 Key Features
 ---
 Multispectral Imaging: Upload smartphone photos or connect external sensors via Bluetooth
+
 Smart Diagnoses: Identify nutrient deficiencies, fungal issues, pest damage, and more
+
 Tailored Recommendations: Solutions based on plant type, location, and conditions
+
 Gamification: Earn badges, level up, and compete on gardening leaderboards
+
 Community: Join challenges, share tips, and grow together
 
 Sample Pages (Mockups)
 ---
 Top Dashboard Image
+
 <img class="img-fluid" src="../img/TopDashboard.jpg">
 Diagnostics Page
 <img class="img-fluid" src="../img/TopPlantDiagnostics.jpg">
