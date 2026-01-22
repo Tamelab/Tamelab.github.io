@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/IMG_3551.jpeg
+image: img/sproutheaderimage.png
 title: "Sproutspace"
 date: 2025
 published: true
@@ -17,7 +17,7 @@ SproutSpace is an intuitive mobile application that helps home gardeners diagnos
 
 ---
 
-<img class="img-fluid" src="../img/Sproutspace_headerimage.jpeg">
+<img class="img-fluid" src="../img/Sproutspace_headerimage.png">
 
 Overview
 ---
@@ -29,7 +29,7 @@ Instant diagnosis
 Actionable solutions
 Preventive care strategies
 
-<img class="img-fluid" src="../img/sproutspace_bottomimage.jpeg">
+<img class="img-fluid" src="../img/sproutspace_bottomimage.png">
 
 Key Features
 ---
@@ -42,16 +42,19 @@ Community: Join challenges, share tips, and grow together
 Sample Pages (Mockups)
 ---
 Top Dashboard Image
-<img class="img-fluid" src="../img/TopDashboard.jpeg">
+<img class="img-fluid" src="../img/TopDashboard.jpg">
 Diagnostics Page
-<img class="img-fluid" src="../img/TopPlantDiagnostics.jpeg">
+<img class="img-fluid" src="../img/TopPlantDiagnostics.jpg">
 
 Use Cases
 ---
 
 New Gardener: Snap a photo, get a quick diagnosis, and follow clear advice
+
 Experienced Grower: Use external sensors and access advanced analytics
+
 Community Member: Earn rewards, share insights, and support others
+
 Admin Role: Maintain AI accuracy, update models, and moderate forums
  
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a
