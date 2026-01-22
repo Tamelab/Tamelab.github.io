@@ -4,9 +4,9 @@ type: project
 image: img/IMG_3551.jpeg
 title: "Math"
 date: 2024
-published: true
+published: false
 labels:
-  - Javascript
+  - Github
   - Visual Studios
   - GitHub
 summary: Code defines a function sum_sq() that calculates and prints the sum of the squares of two user-provided integers. Here’s a breakdown of what it does"
