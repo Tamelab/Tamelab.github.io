@@ -57,4 +57,5 @@ Community Member: Earn rewards, share insights, and support others
 
 Admin Role: Maintain AI accuracy, update models, and moderate forums
  
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a
+Source: https://sproutspace-dev.vercel.app/
+
