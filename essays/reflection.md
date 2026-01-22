@@ -10,9 +10,9 @@ labels:
   - Software Engineering
   - Essays
 ---
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/AI.jpeg">
+<img width="450px" class="rounded float-start pe-4" src="../img/difficulty/AI.jpeg">
 
-# Building Software That Lasts Lessons Beyond the Code
+
 
 
 ## Discovering the Bigger Picture
