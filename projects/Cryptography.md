@@ -73,4 +73,3 @@ Conclusion
 
 Through this assignment, I gained a deeper understanding of encryption techniques and their practical applications. While the Caesar cipher is relatively easy to break due to its limited key space, implementing it helped reinforce the importance of modular arithmetic, character manipulation, and secure communication principles. This project also highlighted the necessity of more advanced encryption methods, such as AES or RSA, for real-world cryptographic security. Overall, this exercise provided a strong foundation in cryptographic programming and algorithmic thinking.
  
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
