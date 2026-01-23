@@ -4,7 +4,7 @@ type: essay
 title: "Building Software That Lasts Lessons Beyond the Code"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-21
-published: True
+published: false
 labels:
   - Reflection
   - Software Engineering
