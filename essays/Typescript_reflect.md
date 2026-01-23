@@ -10,7 +10,7 @@ labels:
   - Software Engineering
   - Essays
 ---
-<img width="450px" class="rounded float-start pe-4" src="../img/typescript/typescript.png">
+<img width="450px" class="rounded float-start pe-4" src="../img/IMG_6374.jpeg">
 
 ## Introduction
 
