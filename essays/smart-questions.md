@@ -15,7 +15,7 @@ labels:
 
 ## More Than Just Getting It to Run
 
-When I first started programming, success meant one thing: **did it run without errors?** If the output appeared and nothing crashed, I felt done. Over time, though, I realized working code is only the starting line — not the finish.
+When I first started programming, success meant one thing: **did it run without errors?** If the output appeared and nothing crashed, I felt done. Over time, though, I realized working code is only the starting line, not the finish.
 
 Software development isn’t just about solving a problem once. It’s about solving it in a way that other people (and your future self) can understand, modify, and trust. That shift in mindset changed how I approach every assignment and project.
 
@@ -25,7 +25,7 @@ Software development isn’t just about solving a problem once. It’s about sol
 
 Early on, I wrote code that *worked*, but barely. Variables had vague names, logic was crammed into single blocks, and I avoided refactoring because “it already runs.” Later, when I tried to revisit those projects, I spent more time decoding my own thinking than improving the program.
 
-I learned that clean structure is not extra — it is part of the solution.
+I learned that clean structure is not extra , it is part of the solution.
 
 Good software:
 - Breaks problems into smaller, clear pieces  
@@ -39,7 +39,7 @@ This is especially important in team environments. Code is communication. If som
 
 ## Struggle Is Where Real Understanding Happens
 
-Some of the most important learning moments didn’t happen when things worked — they happened when they didn’t. Debugging forced me to slow down and actually understand *why* something behaved the way it did.
+Some of the most important learning moments didn’t happen when things worked, they happened when they didn’t. Debugging forced me to slow down and actually understand *why* something behaved the way it did.
 
 I’ve learned to ask:
 - What assumptions am I making?  
@@ -79,7 +79,7 @@ These skills apply far beyond coding. Learning to stay calm while solving a toug
 
 I still have a lot to learn, but my focus has shifted from “finish fast” to **“build well.”** I value readability, structure, and thoughtful design as much as functionality.
 
-Writing software that lasts means thinking beyond the moment the program runs successfully. It means writing code that someone else — or future me — can pick up without confusion. That’s the level of quality I now aim for in every project.
+Writing software that lasts means thinking beyond the moment the program runs successfully. It means writing code that someone else or future me can pick up without confusion. That’s the level of quality I now aim for in every project.
 
 And that mindset is what’s shaping me into a stronger developer.
 
