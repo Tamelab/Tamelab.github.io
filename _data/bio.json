@@ -1,77 +1,110 @@
 {
   "basics": {
     "name": "Tamela Brinson",
-    "label": "Student",
+    "label": "Computer Science Student",
     "picture": "https://avatars.githubusercontent.com/u/190249950?s=400&u=f64ac15936eecd63ee1188469c692195a5b57028&v=4",
     "email": "tamelab@hawaii.edu",
     "phone": "850-464-4311",
-    "website": "https://Tamelab.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
-    "location": { 
-      "address": "", 
-      "postalCode": "96797", 
-      "city": "Waipahu", 
-      "countryCode": "USA", 
-      "region": "Hawaii" 
+    "website": "https://tamelab.github.io",
+    "summary": "Computer Science student at the University of Hawaiʻi at Mānoa with hands-on experience in software development, AI applications, web development, and cybersecurity research. Skilled in Java, Python, and C/C++, with strengths in problem-solving, teamwork, and project management.",
+    "location": {
+      "address": "",
+      "postalCode": "96797",
+      "city": "Waipahu",
+      "countryCode": "US",
+      "region": "HI"
     },
     "profiles": [
-      { "network": "github", "username": "Tamelab", "url": "http://github.com/Tamelab" },
-      { "network": "linkedin", "username": "Tamela Brinson", "url": "http://linkedin.com/in/tamelabrinson" }
+      { "network": "github", "username": "Tamelab", "url": "https://github.com/Tamelab" },
+      { "network": "linkedin", "username": "tamelabrinson", "url": "https://linkedin.com/in/tamelabrinson" }
     ]
   },
+
   "interests": [
     { "name": "Cybersecurity" },
-    { "name": "Encoding and Decoding" },
-    { "name": "Robotics" },
-    { "name": "AI" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Software Development" },
+    { "name": "Game Development" },
     { "name": "UX Design" }
   ],
+
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript" ]
+      "name": "Programming",
+      "keywords": ["Java", "Python", "C/C++"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Web Development",
+      "keywords": ["HTML", "WordPress", "ADA-compliant Design", "Content Management"]
+    },
+    {
+      "name": "Tools & Software",
+      "keywords": ["Unity", "Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Systems",
+      "keywords": ["Windows 10/11", "macOS"]
     }
   ],
+
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2026)",
-      "studyType": "B.S.",
-      "startDate": "2023-08-15",
+      "institution": "University of Hawaiʻi at Mānoa",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2023-08-01",
       "endDate": "Present",
+      "courses": [
+        "Data Security and Cryptography",
+        "Software Engineering",
+        "Artificial Intelligence and Machine Learning"
+      ]
+    },
+    {
+      "institution": "San Diego Community College Miramar",
+      "area": "Computer Science",
+      "studyType": "Associate of Science",
+      "startDate": "2021-08-01",
+      "endDate": "2023-05-01",
       "courses": []
     }
   ],
+
   "work": [
     {
-      "company": "N/A",
-      "position": "N/A",
+      "company": "U.S. Navy",
+      "position": "Elevator Technician / Ordnance Handler & Builder",
       "website": "",
-      "startDate": "N/A",
-      "endDate": "N/A",
-      "summary": "N/A",
-      "highlights": [ "N/A" ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "startDate": "2013-01-01",
+      "endDate": "2018-01-01",
+      "summary": "Maintained mission-critical technical systems and supported operational readiness.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Troubleshot complex technical systems",
+        "Maintained high-reliability operational equipment",
+        "Trained team members in technical procedures",
+        "Developed leadership and advanced problem-solving skills"
       ]
     }
   ],
+
+  "volunteer": [
+    {
+      "organization": "Habitat for Humanity",
+      "website": "",
+      "position": "Volunteer",
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-31",
+      "summary": "Assisted in collaborative community rehabilitation projects.",
+      "highlights": [
+        "Demonstrated initiative and organization",
+        "Worked effectively in team-based environments",
+        "Maintained strong attention to detail"
+      ]
+    }
+  ],
+
   "awards": [],
+
   "references": [
     {
       "name": "Available upon request"
