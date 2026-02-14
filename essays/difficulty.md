@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflecting on Coding Standards in ICS 314"
 date: 2025-08-11
-published: ftrue
+published: true
 labels:
   - Software Engineering
   - Coding Standards
