@@ -10,6 +10,9 @@ labels:
   - ESLint
   - Essays
 ---
+
+<img width="200px" class="rounded float-start pe-4" src="../img/coding.jpg">
+
 # Reflecting on Coding Standards in ICS 314
 # I. Introduction
 When people hear the phrase coding standards, they often think of surface-level rules: how many spaces to indent, where curly braces go, or whether semicolons are mandatory. Those details matter, but after my experience in ICS 314, I’ve come to see coding standards as something much more important. They shape how you think about code, how you communicate with teammates, and even how you learn a programming language.
