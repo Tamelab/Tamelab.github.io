@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/ui.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/ui.png">
 
 When I first started working with user interfaces, I was not building websites. I was inside BlueJ, writing Java code and experimenting with graphical components for the first time. At that point, I was not thinking about UI frameworks or design systems. I just wanted to make buttons work.
 
