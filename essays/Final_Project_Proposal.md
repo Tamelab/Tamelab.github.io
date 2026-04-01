@@ -14,41 +14,41 @@ labels:
 
 
 
-## Overview
+# Overview
 
 Bow-lletins is a digital bulletin board platform for UH Mānoa affiliates. It helps students, oragnizations, clubs, and affiliates find and share important campus opportunities such as jobs, internships, study groups, club events, and deadlines in one centralized, searchable space.
 
 Students at UH Mānoa often miss valuable opportunities because campus announcements are spread across physical bulletin boards, social media, email, and word of mouth. Bow-lletins addresses this issue by creating a centralized digital platform where students, organizations and affiliates can discover and post announcements related to jobs, internships, study groups, events, and deadlines.
 
-## Proposers : Tamela Brinson, Annie Pham, Terisa Lau, Caden Tran, Thomas Tran
+### Proposers : Tamela Brinson, Annie Pham, Terisa Lau, Caden Tran, Thomas Tran
 
 ## Mockup page ideas
 
-# Landing Page
+### Landing Page
 
 Corkboard-style background with UH-inspired green palette
 Logo, login/sign-up buttons, and main search bar
 Clean grid preview of flyers (jobs, events, study groups)
 
-# Home Bulletin Page
+### Home Bulletin Page
 
 Grid layout of flyer cards (like pinned notes)
 Category filters (Jobs, Internships, Events, etc.)
 Search bar at top for quick navigation
 
-# Flyer Detail Page
+### Flyer Detail Page
 
 Full flyer view with description, date, and location
 Reaction bar (❤️🔥👀) with counts
 Comment section and optional RSVP button
 
-# Create Post Page
+### Create Post Page
 
 Form for title, description, category, and image upload
 **Option to generate flyer with AI(concept only)
 Toggles for enabling comments and RSVP
 
-# Profile Page
+### Profile Page
 
 User info and profile details
 Saved flyers and posted flyers
@@ -56,15 +56,15 @@ Easy access to manage posts
 
 ## Use case ideas
 
-# Actors:
+### Actors:
 
 Student
 Creator
 Admin
 
-# Use cases
+### Use cases
 
-# Student
+### Student
 Sign up / log in
 Browse flyers
 Search flyers
@@ -77,7 +77,7 @@ Save flyer
 View saved flyers
 View profile
 
-# Creator
+### Creator
 Create flyer
 Upload flyer image
 Generate flyer with AI
@@ -87,7 +87,7 @@ Edit flyer
 Delete flyer
 View engagement on flyer
 
-# Admin
+### Admin
 Review student uploads 
 Remove inappropriate flyer
 Remove inappropriate comment
