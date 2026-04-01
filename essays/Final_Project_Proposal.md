@@ -2,17 +2,14 @@
 layout: essay
 type: essay
 title: "Final Project Proposal"
-# All dates must be YYYY-MM-DD format!
 date: 2026-03-31
 published: true
 labels:
   - Software Engineering
   - Nextjs
 ---
+
 <img width="450px" class="rounded float-start pe-4" src="/essays/img/Bowlletins_Image.png">
-
-
-
 
 # Overview
 
@@ -22,7 +19,9 @@ Students at UH Mānoa often miss valuable opportunities because campus announcem
 
 Instead of missing events or opportunities due to outdated flyers or limited visibility, students can stay informed in real time. By centralizing campus announcements, Bow-lletins ensures that more students have equal access to opportunities and can stay connected to the UH Mānoa community.
 
-### Proposers : 
+This application will be built using Next.js, React, Bootstrap 5, and GitHub for hosting and collaboration.
+
+### Proposers
 - Tamela Brinson
 - Annie Pham
 - Terisa Lau
@@ -31,42 +30,39 @@ Instead of missing events or opportunities due to outdated flyers or limited vis
 
 ## Mockup page ideas
 
-#### Landing Page
+### Landing Page
 - Corkboard-style background with UH-inspired green palette
 - Logo, login/sign-up buttons, and main search bar
 - Clean grid preview of flyers (jobs, events, study groups)
 
-#### Home Bulletin Page
+### Home Bulletin Page
 - Grid layout of flyer cards (like pinned notes)
 - Category filters (Jobs, Internships, Events, etc.)
 - Search bar at top for quick navigation
 
-#### Flyer Detail Page
+### Flyer Detail Page
 - Full flyer view with description, date, and location
 - Reaction bar (❤️🔥👀) with counts
 - Comment section and optional RSVP button
 
-#### Create Post Page
+### Create Post Page
 - Form for title, description, category, and image upload
 - Option to generate flyer with AI (concept only)
 - Toggles for enabling comments and RSVP
 
-#### Profile Page
+### Profile Page
 - User info and profile details
 - Saved flyers and posted flyers
 - Easy access to manage posts
 
+## Use Cases
 
-## Use case ideas
-
-#### Actors
+### Actors
 - Student
 - Creator
 - Admin
 
-#### Use cases
-
-#### Student
+### Student
 - Sign up / log in
 - Browse flyers
 - Search flyers
@@ -79,7 +75,7 @@ Instead of missing events or opportunities due to outdated flyers or limited vis
 - View saved flyers
 - View profile
 
-#### Creator
+### Creator
 - Create flyer
 - Upload flyer image
 - Generate flyer with AI
@@ -89,7 +85,7 @@ Instead of missing events or opportunities due to outdated flyers or limited vis
 - Delete flyer
 - View engagement on flyer
 
-#### Admin
+### Admin
 - Review student uploads
 - Remove inappropriate flyer
 - Remove inappropriate comment
@@ -97,5 +93,7 @@ Instead of missing events or opportunities due to outdated flyers or limited vis
 
 ## Beyond The Basics
 
-The “special sauce” of Bow-lletins is its interactive and personalized experience. Each user has an account that allows them to save posts, react anonymously, comment, and RSVP to events. These features create a more engaging and community-driven platform compared to static bulletin boards. Additionally, an AI-assisted flyer generator helps users create polished flyers even if they lack design experience, making posting easier and more inclusive.
+The “special sauce” of Bow-lletins is its interactive and personalized user experience. Each user has an account that allows them to save posts, react anonymously, comment, and RSVP to events. These features create a more engaging and community-driven platform compared to traditional static bulletin boards.
+
+Additionally, an AI-assisted flyer generator helps users create polished flyers even if they lack design experience, making posting easier and more inclusive.
 
