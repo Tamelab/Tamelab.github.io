@@ -30,39 +30,39 @@ This application will be built using Next.js, React, Bootstrap 5, and GitHub for
 
 ## Mockup page ideas
 
-### Landing Page
+#### Landing Page
 - Corkboard-style background with UH-inspired green palette
 - Logo, login/sign-up buttons, and main search bar
 - Clean grid preview of flyers (jobs, events, study groups)
 
-### Home Bulletin Page
+#### Home Bulletin Page
 - Grid layout of flyer cards (like pinned notes)
 - Category filters (Jobs, Internships, Events, etc.)
 - Search bar at top for quick navigation
 
-### Flyer Detail Page
+#### Flyer Detail Page
 - Full flyer view with description, date, and location
 - Reaction bar (❤️🔥👀) with counts
 - Comment section and optional RSVP button
 
-### Create Post Page
+#### Create Post Page
 - Form for title, description, category, and image upload
 - Option to generate flyer with AI (concept only)
 - Toggles for enabling comments and RSVP
 
-### Profile Page
+#### Profile Page
 - User info and profile details
 - Saved flyers and posted flyers
 - Easy access to manage posts
 
-## Use Cases
+### Use Cases
 
-### Actors
+#### Actors
 - Student
 - Creator
 - Admin
 
-### Student
+#### Student
 - Sign up / log in
 - Browse flyers
 - Search flyers
@@ -75,7 +75,7 @@ This application will be built using Next.js, React, Bootstrap 5, and GitHub for
 - View saved flyers
 - View profile
 
-### Creator
+#### Creator
 - Create flyer
 - Upload flyer image
 - Generate flyer with AI
@@ -85,7 +85,7 @@ This application will be built using Next.js, React, Bootstrap 5, and GitHub for
 - Delete flyer
 - View engagement on flyer
 
-### Admin
+#### Admin
 - Review student uploads
 - Remove inappropriate flyer
 - Remove inappropriate comment
