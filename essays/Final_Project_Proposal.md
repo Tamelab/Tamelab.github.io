@@ -30,7 +30,7 @@ This application will be built using Next.js, React, Bootstrap 5, and GitHub for
 
 ## Mockup page ideas
 
-#### Landing Page
+### Landing Page
 - Corkboard-style background with UH-inspired green palette
 - Logo, login/sign-up buttons, and main search bar
 - Clean grid preview of flyers (jobs, events, study groups)
