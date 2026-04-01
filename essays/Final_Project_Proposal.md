@@ -14,22 +14,86 @@ labels:
 
 
 
-## Discovering the Bigger Picture
+## Overview
 
-When I first started this class I assumed software engineering was mostly about building web apps. I thought we would learn a few frameworks, complete some projects, and call it a day. But very quickly I realized that the course was teaching something much deeper: how software is built in a way that is organized, maintainable, and scalable especially when more than one person is involved. The web development exercises were simply the toolset. The real goal was understanding the foundations of software engineering that apply to any programming domain.
+Bow-lletins is a digital bulletin board platform for UH Mānoa affiliates. It helps students, oragnizations, clubs, and affiliates find and share important campus opportunities such as jobs, internships, study groups, club events, and deadlines in one centralized, searchable space.
 
-## Mastering Configuration Management
+Students at UH Mānoa often miss valuable opportunities because campus announcements are spread across physical bulletin boards, social media, email, and word of mouth. Bow-lletins addresses this issue by creating a centralized digital platform where students, organizations and affiliates can discover and post announcements related to jobs, internships, study groups, events, and deadlines.
 
-One of my first major takeaways was configuration management. Before this class I had only a basic understanding of Git and mostly used it to upload code to GitHub. Now I understand that version control is about more than storage. It is about tracking changes, understanding who made them, and preserving the integrity of a project. During group projects, branching and merging ensured we did not overwrite each other’s work. I can see how these skills would apply to complex simulations or research projects, where keeping track of versions could be the difference between accurate results and wasted time.
+## Proposers : Tamela Brinson, Annie Pham, Terisa Lau, Caden Tran, Thomas Tran
 
-## Agile Project Management in Practice
+## Mockup page ideas
 
-Another lesson that reshaped my approach to work was Agile Project Management, specifically Issue Driven Project Management IDPM. Initially, breaking work into issues on a project board felt tedious, but it quickly became clear how much it improved organization and focus. Tackling tasks in smaller, manageable steps made progress more visible and measurable. Closing each issue provided a tangible sense of accomplishment, and I can imagine using this method for non software projects as well, like planning events or coordinating creative productions. Agile principles are ultimately about keeping projects moving without getting overwhelmed.
+# Landing Page
 
-## Thinking in Patterns
+Corkboard-style background with UH-inspired green palette
+Logo, login/sign-up buttons, and main search bar
+Clean grid preview of flyers (jobs, events, study groups)
 
-Finally, design patterns fundamentally changed the way I think about writing code. At first, patterns seemed abstract. Why not just write code that works? Over time, I realized patterns like Model View Controller MVC help create systems that are reusable and understandable. Separating data, logic, and presentation is not just about neatness. It allows other developers and future me to modify parts of the system without breaking the rest. I can see this approach being useful for building anything from web apps to sensor network applications, where separation of concerns keeps systems flexible and maintainable.
+# Home Bulletin Page
 
-## Looking Ahead
+Grid layout of flyer cards (like pinned notes)
+Category filters (Jobs, Internships, Events, etc.)
+Search bar at top for quick navigation
 
-Looking back, the lessons from this class will outlast the specifics of the web stack. Configuration management taught me collaboration without chaos, Agile taught me how to stay organized and maintain steady progress, and design patterns taught me to see code as part of a larger system. These are transferable skills that I will carry into future software projects and beyond, ensuring that the work I build is not only functional but sustainable.
+# Flyer Detail Page
+
+Full flyer view with description, date, and location
+Reaction bar (❤️🔥👀) with counts
+Comment section and optional RSVP button
+
+# Create Post Page
+
+Form for title, description, category, and image upload
+**Option to generate flyer with AI(concept only)
+Toggles for enabling comments and RSVP
+
+# Profile Page
+
+User info and profile details
+Saved flyers and posted flyers
+Easy access to manage posts
+
+## Use case ideas
+
+# Actors:
+
+Student
+Creator
+Admin
+
+# Use cases
+
+# Student
+Sign up / log in
+Browse flyers
+Search flyers
+Filter by category
+View flyer details
+React to flyer anonymously
+Comment on flyer
+RSVP to event
+Save flyer
+View saved flyers
+View profile
+
+# Creator
+Create flyer
+Upload flyer image
+Generate flyer with AI
+Enable or disable comments
+Enable or disable RSVP
+Edit flyer
+Delete flyer
+View engagement on flyer
+
+# Admin
+Review student uploads 
+Remove inappropriate flyer
+Remove inappropriate comment
+Review reported content
+
+## Beyond The Basics
+
+The “special sauce” of Bow-lletins is its interactive and personalized experience. Each user has an account that allows them to save posts, react anonymously, comment, and RSVP to events. These features create a more engaging and community-driven platform compared to static bulletin boards. Additionally, an AI-assisted flyer generator helps users create polished flyers even if they lack design experience, making posting easier and more inclusive.
+
