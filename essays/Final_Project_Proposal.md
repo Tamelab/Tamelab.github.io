@@ -21,11 +21,11 @@ Bow-lletins is a digital bulletin board platform for UH Mānoa affiliates. It he
 Students at UH Mānoa often miss valuable opportunities because campus announcements are spread across physical bulletin boards, social media, email, and word of mouth. Bow-lletins addresses this issue by creating a centralized digital platform where students, organizations and affiliates can discover and post announcements related to jobs, internships, study groups, events, and deadlines.
 
 ### Proposers : 
--Tamela Brinson
--Annie Pham
--Terisa Lau
--Caden Tran
--Thomas Tran
+- Tamela Brinson
+- Annie Pham
+- Terisa Lau
+- Caden Tran
+- Thomas Tran
 
 ## Mockup page ideas
 
