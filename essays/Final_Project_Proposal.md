@@ -9,7 +9,7 @@ labels:
   - Software Engineering
   - Nextjs
 ---
-<img width="450px" class="rounded float-start pe-4" src="../img/Bowlletins_Image.png"">
+<img width="450px" class="rounded float-start pe-4" src="../essays/img/Bowlletins_Image.png"">
 
 
 
