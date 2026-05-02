@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Design Patterns"
 date: 2025-07-24
-published: false
+published: true
 labels:
   - Programming
   - Software Design
@@ -15,7 +15,7 @@ labels:
 
 # Design Patterns: The Building Blocks of Code Architecture
 
-Imagine building a house without a blueprint. You might get lucky, but chances are the rooms won’t flow well, the plumbing might leak, and the whole thing could collapse when you add a second floor. Design patterns are like the blueprints and architectural guidelines for software development—they provide proven solutions to common problems, so your code is solid, maintainable, and scalable.
+Imagine building a house without a blueprint. You might get lucky, but chances are the rooms won’t flow well, the plumbing might leak, and the whole thing could collapse when you add a second floor. Design patterns are like the blueprints and architectural guidelines for software development, they provide proven solutions to common problems, so your code is solid, maintainable, and scalable.
 
 When I first started coding, I thought writing software was just about making things work. But as projects grew, I realized it was more like constructing a building: without good design, everything gets messy and hard to fix. That’s where design patterns come in—patterns are reusable templates for solving problems that happen over and over again in software.
 
@@ -45,4 +45,4 @@ Design patterns are like a toolkit of blueprints that experienced programmers ha
 
 By learning and using design patterns, I’ve improved my coding skills and the quality of my projects. They give me a foundation that makes complex software easier to build, test, and maintain.
 
-This essay was written by me, Tamela Brinson, as part of my university coursework in 2025.
+This essay was written by me, Tamela Brinson, as part of my university coursework in 2026.
