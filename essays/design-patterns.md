@@ -2,47 +2,86 @@
 layout: essay
 type: essay
 title: "Design Patterns"
-date: 2025-07-24
+date: 2026-04-24
 published: true
 labels:
   - Programming
   - Software Design
+  - Next.js
+  - Reflection
 ---
 
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_3554.jpeg">
 
 
-# Design Patterns: The Building Blocks of Code Architecture
+# Design Patterns: The Blueprint Behind Bow-lletins
 
-Imagine building a house without a blueprint. You might get lucky, but chances are the rooms won’t flow well, the plumbing might leak, and the whole thing could collapse when you add a second floor. Design patterns are like the blueprints and architectural guidelines for software development, they provide proven solutions to common problems, so your code is solid, maintainable, and scalable.
+Imagine trying to build something like my final project, *Bow-lletins*, without any structure. At first, it feels manageable. You can throw together pages, connect a database, and get things working. But once features start stacking—user login, posting flyers, saving events, filtering categories—it quickly turns into a mess. Things break in unexpected places, code gets duplicated, and even small changes become stressful.
 
-When I first started coding, I thought writing software was just about making things work. But as projects grew, I realized it was more like constructing a building: without good design, everything gets messy and hard to fix. That’s where design patterns come in—patterns are reusable templates for solving problems that happen over and over again in software.
+That’s when I started realizing that writing code isn’t just about making something work—it’s about designing something that *keeps working*. That’s where design patterns came in for me. They’re not strict rules or copy-paste solutions, but more like proven strategies that developers use to solve problems that show up again and again. Kind of like how buildings follow certain structural principles so they don’t collapse, software uses design patterns so it stays stable as it grows.
 
-## What Are Design Patterns?
+## Patterns I Didn’t Know I Was Using (At First)
 
-Design patterns are typical solutions to common problems in software design. They’re not finished pieces of code you can copy and paste, but templates or guides that help you structure your code in a way that’s easy to understand, maintain, and reuse.
+Before I even knew the term “design patterns,” I was already using them. For example, when building authentication in Bow-lletins using NextAuth.js, I naturally structured things so that one central system handled login sessions. Later I realized this follows the idea behind a **Singleton** pattern—making sure there’s only one source of truth managing authentication state.
 
-## How I Have Used Design Patterns in My Code
+In my own code, I’ve also used a Singleton-like approach for database access through Prisma. Instead of creating multiple database connections everywhere, I keep one shared instance that everything uses. This prevents conflicts and keeps things efficient.
 
-One of the most helpful design patterns I use often is the **Singleton**. It’s like the main control room of a building where only one security manager is allowed to operate. In my code, I’ve used Singleton to make sure there’s only one instance managing the connection to a database, so different parts of the program don’t conflict by opening multiple connections.
+```ts
+import { PrismaClient } from '@prisma/client';
 
-```python
-class Singleton:
-    _instance = None
+const prisma = global.prisma || new PrismaClient();
 
-    def __new__(cls):
-        if not cls._instance:
-            cls._instance = super().__new__(cls)
-        return cls._instance  
-```
+if (process.env.NODE_ENV !== 'production') global.prisma = prisma;
 
+export default prisma;
 
-Another favorite is the Observer pattern—think of it like a fire alarm system in a building. When the alarm detects smoke, it notifies all the rooms so people can evacuate. In my projects, I’ve used Observer to update the user interface in real-time when the underlying data changes, without having to constantly check or refresh manually.
+At the time, I just thought I was “avoiding bugs,” but in reality, I was applying a well-known pattern.
 
-## Why Design Patterns Matter
-Design patterns are like a toolkit of blueprints that experienced programmers have developed to make building software less chaotic and more efficient. Using them helps avoid “reinventing the wheel” and improves communication, since other developers often recognize these common patterns.
+## Real-Time Features and the Observer Mindset
 
-By learning and using design patterns, I’ve improved my coding skills and the quality of my projects. They give me a foundation that makes complex software easier to build, test, and maintain.
+Another pattern that showed up in my project is something close to the **Observer pattern**. Bow-lletins has features like saving flyers, reacting, or updating posts. When a user interacts with something, different parts of the app need to reflect that change—like updating counts or UI elements.
 
-This essay was written by me, Tamela Brinson, as part of my university coursework in 2026.
+Instead of constantly refreshing everything, I structured components so they react to changes in state. In React (especially with Next.js), this happens naturally: when data changes, components re-render. That behavior is basically the Observer pattern in action—objects automatically update when the data they depend on changes.
+
+This made the app feel smoother and more interactive without me having to manually sync everything.
+
+## Separating Responsibilities Without Realizing It
+
+One of the biggest improvements in my project came from separating logic into different layers. For example, in Bow-lletins:
+
+- UI components handle display  
+- API routes handle requests  
+- Database logic is handled through Prisma  
+
+This structure follows ideas from patterns like MVC (Model-View-Controller), even though I didn’t strictly label it that way. The important part is that each piece has a clear role. When something breaks, I know where to look. When I want to add a feature, I don’t have to rewrite everything.
+
+## Why This Actually Matters (Not Just Interview Talk)
+
+Before this class, I thought design patterns were just something interviewers asked about to sound smart. But working on a real project changed that. Without patterns, my code started to feel fragile. With them, everything became more predictable.
+
+Design patterns helped me:
+
+- Avoid repeating the same logic everywhere  
+- Keep my code organized as the app grew  
+- Make it easier to debug and add features  
+- Understand other people’s code faster  
+
+And honestly, the biggest difference is confidence. I’m not just guessing anymore when I structure my code—I have a reason behind it.
+
+## Looking Back at Bow-lletins
+
+By the end of building Bow-lletins, I realized I wasn’t just coding features. I was applying patterns the whole time:
+
+- **Singleton** → managing database and authentication instances  
+- **Observer** → UI reacting to state changes in React  
+- **Separation of concerns (MVC-like thinking)** → organizing frontend, backend, and database logic  
+
+So if someone asked me now, “What are design patterns?” I wouldn’t just give a textbook definition. I’d say they’re the reason my project didn’t fall apart halfway through development. And if they asked what patterns I’ve used, I could point directly to parts of my own app—not just theory.
+
+That’s what makes them stick.
+
+## AI Use Acknowledgment
+
+I used ChatGPT to help refine the structure, clarity, and wording of this essay. The ideas, examples, and project references are based on my own experience building Bow-lletins.
+
