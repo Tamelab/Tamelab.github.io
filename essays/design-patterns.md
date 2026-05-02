@@ -35,6 +35,7 @@ const prisma = global.prisma || new PrismaClient();
 if (process.env.NODE_ENV !== 'production') global.prisma = prisma;
 
 export default prisma;
+```
 
 At the time, I just thought I was “avoiding bugs,” but in reality, I was applying a well-known pattern.
 
