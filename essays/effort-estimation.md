@@ -18,7 +18,7 @@ When I first saw that we had to estimate how long tasks would take for our Bow l
 
 At the beginning, my estimates were mostly based on what I felt the task looked like. If something seemed simple, I would say maybe one or two hours. If it looked more complicated, I would guess four or five hours. Sometimes I compared it to something I had done before, like building a page or working with authentication.
 
-Even then, I was often wrong. Some tasks that looked easy took much longer because of bugs or unexpected problems. Other tasks that looked hard ended up being quicker once I understood what to do. <img src="/images/estimation.png" alt="Estimation IMG" style="float: right; width: 300px; margin: 0 0 10px 15px;">
+Even then, I was often wrong. Some tasks that looked easy took much longer because of bugs or unexpected problems. Other tasks that looked hard ended up being quicker once I understood what to do. <img src="/img/estimation.png" alt="Estimation IMG" style="float: right; width: 300px; margin: 0 0 10px 15px;">
 
 ## Did Estimating Actually Help 
 
