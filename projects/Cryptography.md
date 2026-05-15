@@ -1,75 +1,61 @@
 ---
 layout: project
 type: project
-image: img/IMG_3553.jpeg
-title: "Crypto"
-date: 2022
+image: img/bowlletins-home.png
+title: "Bow-lletins"
+date: 2026
 published: true
 labels:
-  - Crytography
-  - Decoding
-  - Encoding
+  - Software Engineering
+  - Next.js
+  - React
+  - Bootstrap
+  - Prisma
+  - PostgreSQL
   - GitHub
-summary: "Cryptography is the practice and study of securing information and communication through techniques that prevent unauthorized access, tampering, or interception.."
+summary: "Bow-lletins is a UH Mānoa digital bulletin board application that helps students find campus events, internships, jobs, study groups, and other opportunities in one organized place."
 ---
 
-<img class="img-fluid" src="../img/IMG_3553.jpeg">
+<img class="img-fluid" src="../img/bowlletins-home.png" alt="Bow-lletins home page screenshot">
 
-Implementing a Caesar Cipher for Encryption and Decryption
-For this assignment, I implemented a Caesar cipher, a fundamental cryptographic technique used for encryption and decryption. The Caesar cipher is a substitution cipher that shifts each letter in the plaintext forward by a fixed number of positions in the alphabet. To decrypt the message, the shift is simply reversed. This project allowed me to explore basic cryptographic principles, particularly character manipulation and modular arithmetic, while reinforcing my understanding of programming in C.
+## Project Overview
 
-Encryption Process
+Bow-lletins is a web application my team developed for our software engineering class. The purpose of the project is to create a digital bulletin board for UH Mānoa students. Instead of students having to search through scattered flyers, emails, group chats, and social media posts, Bow-lletins gives them one organized place to discover campus opportunities.
 
-To encrypt a message, I designed a function that iterates through each character in the input string. If the character is a letter, it is shifted forward in the alphabet by the specified shift value. To ensure that the transformation is case-sensitive, I determined whether the character was uppercase or lowercase and adjusted the shift accordingly. Additionally, I used modular arithmetic to wrap around the alphabet so that letters beyond 'Z' or 'z' would correctly cycle back to 'A' or 'a'. The implementation is as follows:
+The application allows users to browse flyers for jobs, internships, events, study groups, clubs, and social activities. Users can also view flyer details, save flyers, RSVP to events, and use dashboard features after logging in. The goal of the project was to make campus information easier to find while keeping the design simple, useful, and student friendly.
 
-#include <stdio.h>
-#include <ctype.h>
+## My Contributions
 
-void encrypt(char *message, int shift) {
-    for (int i = 0; message[i] != '\0'; i++) {
-        if (isalpha(message[i])) {
-            char base = isupper(message[i]) ? 'A' : 'a';
-            message[i] = (message[i] - base + shift) % 26 + base;
-        }
-    }
-}
-Decryption Process
+For this project, I worked on both the design and functionality of the application. I helped build user interface features, improve page layouts, and create a more polished experience for users. I also worked on dashboard updates, flyer display cards, category visuals, and navigation improvements.
 
-For decryption, I implemented a similar function that shifts each letter backward by the same shift value. To prevent negative values during the shift, I added 26 before applying the modulo operation, ensuring correct wrap-around behavior. The decryption function is as follows:
+Some of my main contributions included:
 
-void decrypt(char *message, int shift) {
-    for (int i = 0; message[i] != '\0'; i++) {
-        if (isalpha(message[i])) {
-            char base = isupper(message[i]) ? 'A' : 'a';
-            message[i] = (message[i] - base - shift + 26) % 26 + base;
-        }
-    }
-}
-User Interaction and Execution
+<ul>
+  <li>Designing and improving the user dashboard layout</li>
+  <li>Updating flyer cards and category based visuals</li>
+  <li>Helping create a clean corkboard and sticky note style design</li>
+  <li>Working on page navigation and user experience improvements</li>
+  <li>Helping implement flyer features such as saved flyers, user flyers, and dashboard sections</li>
+  <li>Testing pages and fixing layout issues during development</li>
+  <li>Collaborating with teammates through GitHub issues, branches, and project boards</li>
+</ul>
 
-To allow user input and demonstrate the encryption and decryption process, I implemented a main() function. This function prompts the user to enter a message and a shift value, then displays both the encrypted and decrypted versions of the message.
+## What I Learned
 
-int main() {
-    char message[100];
-    int shift;
+This project helped me understand what it is like to build a larger software project with a team. I learned how important planning, communication, and version control are when multiple people are working on the same codebase. I also gained more experience with React, Next.js, Bootstrap, Prisma, PostgreSQL, and GitHub workflows.
 
-    printf("Enter a message to encrypt: ");
-    fgets(message, sizeof(message), stdin);
+One of the biggest things I learned was how much user experience matters. Small design choices, such as spacing, colors, navigation, and button placement, can make an application feel much easier to use. I also learned how to troubleshoot bugs, handle merge conflicts, and improve features based on feedback.
 
-    printf("Enter shift value: ");
-    scanf("%d", &shift);
+Overall, Bow-lletins gave me real experience working on a full stack web application from idea to deployment.
 
-    encrypt(message, shift);
-    printf("Encrypted message: %s\n", message);
+## Screenshots
 
-    decrypt(message, shift);
-    printf("Decrypted message: %s\n", message);
+<img class="img-fluid" src="../img/bowlletins-dashboard.png" alt="Bow-lletins dashboard screenshot">
 
-    return 0;
-}
-In this implementation, I used isalpha() to ensure that only alphabetic characters were modified while leaving spaces and punctuation unchanged. The use of modular arithmetic allowed for seamless letter shifting without exceeding the boundaries of the alphabet. By handling uppercase and lowercase letters separately, I preserved the integrity of the original message.
+<img class="img-fluid" src="../img/bowlletins-flyer.png" alt="Bow-lletins flyer page screenshot">
 
-Conclusion
+## Project Links
 
-Through this assignment, I gained a deeper understanding of encryption techniques and their practical applications. While the Caesar cipher is relatively easy to break due to its limited key space, implementing it helped reinforce the importance of modular arithmetic, character manipulation, and secure communication principles. This project also highlighted the necessity of more advanced encryption methods, such as AES or RSA, for real-world cryptographic security. Overall, this exercise provided a strong foundation in cryptographic programming and algorithmic thinking.
- 
+You can view the organization GitHub page and source code here:
+
+<a href="https://github.com/bowlletins/Bowlletins" target="_blank">Bow-lletins GitHub Repository</a>
