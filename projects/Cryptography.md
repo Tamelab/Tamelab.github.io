@@ -16,7 +16,7 @@ labels:
 summary: "Bow-lletins is a UH Mānoa digital bulletin board application that helps students find campus events, internships, jobs, study groups, and other opportunities in one organized place."
 ---
 
-<img class="img-fluid" src="../img/bowlletins-home.png" alt="Bow-lletins home page screenshot">
+<img class="img-fluid" src="../img/Landing_Page.png" alt="Bow-lletins home page screenshot">
 
 ## Project Overview
 
