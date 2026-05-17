@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bowlletins.png
+image: <img class="img-fluid project-img" src="../img/Landing_Page.png" alt="Bow-lletins home page screenshot">
 title: "Bow-lletins"
 date: 2026
 published: true
