@@ -52,7 +52,7 @@ Overall, Bow-lletins gave me real experience working on a full stack web applica
 
 <img class="img-fluid" src="../img/Explore.png" alt="Bow-lletins dashboard screenshot">
 
-<img class="img-fluid" src="../img/bowlletins-flyer.png" alt="Bow-lletins flyer page screenshot">
+<img class="img-fluid" src="../img/categories.png" alt="Bow-lletins flyer page screenshot">
 
 ## Project Links
 
