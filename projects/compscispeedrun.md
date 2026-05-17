@@ -7,8 +7,8 @@ date: 2025
 published: true
 labels:
   - Algorithms 
-  - technical
-  - -Video Game Design
+  - Technical
+  - Video Game Design
 summary: "Game Development for a minigame based video game with different levels based on the year you are currently in university."
 ---
 
