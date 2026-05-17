@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Explore.png
+image: img/bowlletins.png
 title: "Bow-lletins"
 date: 2026
 published: true
